@@ -21,8 +21,8 @@ public class Main {
                 }
             }
         }
-        Vector<Integer> maxrw = new Vector<>();
-        Vector<Integer> maxcl = new Vector<>();
+        ArrayList<Integer> maxrw = new ArrayList<>();
+        ArrayList<Integer> maxcl = new ArrayList<>();
         for(int i = 0; i < n; i++){
             if(row[i] == maxr){
                 maxrw.add(i);
